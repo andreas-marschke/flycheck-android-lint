@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 2.3.0">
+  <issue
+      id="UseValueOf"
+      severity="Warning"
+      message="Use `Integer.valueOf(paramList.get(&quot;id&quot;))` instead"
+      category="Performance"
+      priority="4"
+      summary="Should use `valueOf` instead of `new`"
+      explanation="This is a longer explanation"
+      errorLine1="Integer oid = new Integer(paramList.get(&quot;id&quot;));"
+      errorLine2="                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+      quickfix="studio">
+    <location
+        file="src/com/example/app/test/AppTest.java"
+        line="10"
+        column="10"/>
+  </issue>
+</issues>

@@ -1,0 +1,13 @@
+* Flycheck-Android-Lint
+
+Flycheck support for android linting
+
+** DISCLAIMER
+
+This is not finished yet and may not work at all.
+
+** About
+
+This flycheck checker enables parsing and lint highlighting 
+based on Androids own lint report results. It looks at =build/reports/lint-results.xml= by 
+default but can be configured to look at a different relative path from the projects root dir. 
